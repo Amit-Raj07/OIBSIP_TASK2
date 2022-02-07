@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:ital,wght@0,400;1,500&family=Roboto+Mono&family=Russo+One&display=swap');
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:ital,wght@0,400;1,500&family=Roboto+Mono&family=Russo+One&family=Ubuntu:wght@300&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:ital,wght@0,400;1,500&family=Roboto+Mono&family=Russo+One&family=Ubuntu:wght@300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    /* position: absolute; */
+    background-color: rgb(255 151 151);
+    width: 300px;
+    font-family: 'Russo One', sans-serif;
+    height: 100vh;
+    /* transition: transform 0.3s ease-in; */
+}
+
+.sidebar nav{
+    padding: 40px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 23px;
+    padding: 25px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(8, 10, 15);
+}
+
+.main{
+    background-color: rgb(252, 252, 252);
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+
+}
+
+.infoContainer{
+    background-color: rgb(236, 209, 255);
+    height: 60vh;
+    width: 90%;
+    display: flex;
+    margin: 144px auto;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devpic img{
+    /* margin-top: 100px; */
+    width: 200px;
+    height: 30vh;
+    margin-top: 80px;
+    border-radius: 80px;
+    /* border-radius: 50vh; */
+}
+
+.hello{
+    font-size: 50px;
+    margin-left: -50px;
+    /* font-family: 'Ubuntu', sans-serif; */
+
+}
+.name{
+    font-size: 50px;
+    margin-left: -50px;
+    font: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about{
+    font-size: 30px;
+    margin-left: -50px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.More-about{
+     margin-top: 30px;
+     margin-left: -50px;
+     font-family: 'Ubuntu', sans-serif;
+}
+.buttons{
+    margin-top: 30px;
+    margin-left: -50px;
+    
+}
+
+
+
+.buttons button{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 30px;
+    padding: 10px  14px;
+    color: white;
+    background-color: rgb(12, 141, 70);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: rgb(181, 109, 233);
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 100px;
+    
+
+
+}
+
+.contactform h1{
+    font-family: 'Ubuntu', sans-serif;
+    /* text-align: center; */
+    text-align: auto;
+    margin: 10px;
+}
+
+.contactform div{
+    margin: auto;
+    padding: 10px;
+    text-align: auto;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    /* width: 16vw; */
+    border-radius: 5px;
+    margin: 16px 0;
+    /* padding: 3px;*/
+    
+}
+
+.btn{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 30px;
+    padding: 10px  14px;
+    color: white;
+    background-color: rgb(12, 141, 70);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(181, 109, 233);
+}
+
+/* .contactform form div{
+    padding: 10px 0;
+} */
+
+#emailHelp{
+    font-size: 10px;
+    /* color: rgb(5, 3, 3); */
+    /* margin: 0 5px;8*/
+}
+
+.blogcontainer{
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.para{
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+.left{
+    background-color: violet;
+    text-align: center;
+    border-radius: 50px;
+}
+p, .intro h2, .intro p{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.skill{
+    width: 300px;
+    height: 35px;
+    background-color: green;
+}
+
+.Ninety{
+    width: 150px;
+    border-radius: 20px;
+}
+.sev75{
+    width: 90px;
+    border-radius: 20px;
+    background-color: yellowgreen;
+}
+.sixty{
+    width: 75px;
+    border-radius: 20px;
+    background-color: yellow;
+}
+.fifty{
+    width: 60px;
+    border-radius: 20px;
+    background-color: rgb(218, 93, 62);
+}
+.forty{
+    width: 45px;
+    border-radius: 20px;
+    background-color: rgb(218, 93, 62);
+}
+
+.sidebarGo{
+    transform: translate(px, 0px); 
+    position: absolute;
+}
+
+
+/* .humburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+} */
+
+
+
+/* .cross{
+    margin-left: 155px;
+} */
+/* 
+@media(max-width: 1615px)
+*{
+
+} */
+
+
